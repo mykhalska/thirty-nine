@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+:root {
+  box-sizing: border-box;
+  --text-main-color: #000;
+  --text-light-color: #4d4d4d;
+  --text-tertiary-сolor: #c4c4c4;
+  --accent-color: #eb3936;
+  --background-color: #c4c4c4;
+  --background-color-second: #8a927d;
+  --nav-background-color: #afadae;
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: Abel;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+a {
+  text-decoration: none;
+  color: var(--text-main-color);
+}
+.header {
+  background-color: var(--background-color);
+  height: 730px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.content {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.header__icons {
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__icon {
+  width: 30px;
+  height: 30px;
+}
+.header__icons-left {
+  width: 190px;
+  height: 42px;
+  display: inline-block;
+}
+.header__icon-heart {
+  margin-left: 65px;
+}
+.header__logo {
+  margin: 0;
+  color: var(--text-light-color);
+  font-family: "Tenor Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.header__nav-container {
+  background-color: var(--nav-background-color);
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 138px;
+  position: absolute;
+  z-index: 3;
+}
+.header__nav {
+  color: var(--text-main-color);
+  font-family: "Tenor Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+  margin-right: 251px;
+}
+.header__nav:hover {
+  color: var(--accent-color);
+  text-decoration: underline var(--accent-color);
+  transition: all 0, 8s;
+}
+.header__image-main {
+  width: 1200px;
+  height: 555px;
+  flex-shrink: 0;
+  margin-top: 41px;
+  position: absolute;
+  z-index: 2;
+}
+.header__txt-point {
+  color: var(--text-light-color);
+  font-family: "Tenor Sans";
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 453px;
+  position: absolute;
+  z-index: 2;
+}
+.screen2 {
+  background-color: var(--background-color-second);
+}
+.about__txt {
+  color: var(--text-light-color);
+}
+.about__photo {
+  width: 325px;
+  height: 584px;
+  flex-shrink: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about__vector {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about__txt-small {
+  color: var(--text-tertiary-сolor);
+}
+.footer{
+background-color: var(--text-light-color);
+}
+/* .footer__socials-grid {
+}
+.footer__socials {
+} */
+.footer_text {
+  color: var(--text-tertiary-сolor);
+}

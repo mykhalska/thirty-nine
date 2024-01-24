@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css">
     <title>Thirty nine</title>
     <link
       rel="shortcut icon"
@@ -12,30 +13,37 @@
     />
   </head>
   <body>
+    
     <header class="header">
+      <div class="content">
       <div class="header__icons">
+        
         <img
           class="header__icon"
           src="icons\searchicon.svg"
           alt="Search icon"
         />
         <h1 class="header__logo">THIRTYNINE.</h1>
-        <img
-          class="header__icon"
-          src="icons\shoppingcarticon.svg"
-          alt="Shopping cart"
-        />
-        <img class="header__icon" src="icons\hearticon.svg" alt="Wish list" />
+       <div class="header__icons-left">
+          <img
+            class="header__icon"
+            src="icons\shoppingcarticon.svg"
+            alt="Shopping cart"
+          />
+          <span class="header__icon-heart"><img class="header__icon" src="icons\hearticon.svg" alt="Wish list" /></span>
+       </div>
       </div>
-      <nav class="header__nav">
+      <nav class="header__nav-container">
         <a class="header__nav" href="catalogue.html"> Catalogue </a>
         <a class="header__nav" href="contacts.html"> Contacts </a>
         <a class="header__nav" href="about39.html"> About 39. </a>
         <a class="header__nav" href="lookbook.html"> Lookbook </a>
       </nav>
+      <img class="header__image-main" src="/photos/scr1.jpg" alt="Brand girls">
+      <p class="header__txt-point">point of simplicity</p>
     </header>
     <main>
-      <section>
+      <section class="screen2">
         <h2>about - brand</h2>
         <p class="about__txt">point of simplicity</p>
         <p class="about__txt">point of being yourself</p>
@@ -56,7 +64,7 @@
         </p>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="footer__socials-grid">
         <img class="footer__socials" src="icons\facebook.svg" alt="facebook" />
         <img class="footer__socials" src="icons\insta.svg" alt="instagram" />
@@ -78,5 +86,6 @@
       <p class="footer_text">payment</p>
     </footer>
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+  </div>
   </body>
 </html>
